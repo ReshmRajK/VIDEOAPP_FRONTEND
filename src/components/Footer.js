@@ -4,11 +4,11 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Footer() {
   return (
-    <div>
+    <div style={{width:'100vw'}} className='mt-5'>
         <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="">
-          <p className='text-center fixed-bottom'> copyrights @play video </p>
+          <p className="text-center"> copyrights @play video </p>
           </Navbar.Brand>
         </Container>
       </Navbar>

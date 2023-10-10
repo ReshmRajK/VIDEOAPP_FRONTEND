@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div >
+    <div style={{width:'100vw'}}>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="">
